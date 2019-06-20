@@ -1,0 +1,1122 @@
+
+/* Copy****************************************/ 
+
+/**Start the About Page*/
+
+.breadcrumb-holder{
+    background-color: #f5f5f5;
+}
+.breadcrumb{
+    padding: 10px  0;
+    margin: 0;
+}
+.about-us{
+    margin-top: 50px;
+    padding: 70px 0;
+    direction: rtl;
+}
+.about-us h1{
+    font-weight: bold;
+    font-size: 52px;
+    letter-spacing: -2px;
+}
+.about-us hr{
+    width: 70%;
+}
+.about-us img{
+    width: 100%; 
+   
+}
+.about-us .header{
+    font-weight: bold;
+    margin-top: 50px;
+    margin-right: 20px;
+    margin-bottom: 50px;
+    font-size: 40px;
+    background-color: black;
+    color: #3fbbc0;
+    padding: 13px;
+    border-radius: 50px;
+    max-width: 600px;
+   
+}
+.about-us .main-head{
+    background-color: #AAA;
+    color: black;
+    font-size: 30px;
+    padding: 10px;
+    margin: 20px auto;
+    text-align: center !important;
+    display: inline-block;
+    border-radius: 10px;
+    font-weight: bold;
+}
+.main-head{
+    background-color: #AAA;
+    color: black;
+    font-size: 30px;
+    padding: 10px;
+    margin: 20px auto;
+    text-align: center !important;
+    display: inline-block;
+    border-radius: 10px;
+    font-weight: bold;
+}
+.about-us ul li{
+    padding: 8px;
+    font-size: 25px;
+    border: 1px solid #EEE;
+    width: 780px;
+    margin: 0 -20px 10px 10px;
+    border-radius: 15px;
+    direction: rtl;
+
+}
+.about-us ul li{
+  direction: rtl;
+}
+.about-us .container{
+    width: 1550px;
+}
+
+.h1{
+  font-size: 50px;
+    margin: 20px;
+    background-color: black;
+    color: #2fbbb4;
+    padding: 10px;
+    border-radius: 50px;
+    text-align: center;
+}
+
+/*End about*/
+
+
+/***************************************************/
+@font-face {
+  font-family: 'Open-Sans';
+  font-weight: 400;
+  src:url("../Open_Sans/OpenSans-Regular.ttf");
+  src:url("../Open_Sans/OpenSans-Regular.ttf") format('ttf'),
+      url("../Open_Sans/OpenSans-Regular.ttf") format('truetype'); 
+}
+body{
+    direction: 
+    padding-top: 70px;
+    font-family: 'Open-Sans', sans-serif;
+    min-height: 625px;
+    box-sizing: border-box;
+   /* height: 4000px;
+*/
+}
+
+a:hover{
+    color: crimson;
+}
+@font-face {
+  font-family: 'Tajawal-Regular';
+  font-weight: 400;
+  src:url("../Tajawal/Tajawal-Regular.ttf");
+  src:url("../Tajawal/Tajawal-Regular.ttf") format('ttf'),
+      url("../Tajawal/Tajawal-Regular.ttf") format('truetype'); 
+}
+body,h1,h2,h3,h4{
+    font-family: 'Tajawal-Regular', sans-serif;
+}
+
+
+.con-nav{
+    min-width: 1200px;
+}
+.navbar{
+    padding: 11px;
+    position: fixed;
+    background-color: #212529 !important;
+
+}
+
+.navbar .tab-switch{
+    float: right;
+}
+.navbar .tab-switch{
+    font-size: 21px !important;
+
+}
+.navbar .tab-switch li {
+    margin-left: 18px;
+}
+.navbar .tab-switch li a{
+    color: #3fbbc0 !important;
+}
+.navbar .tab-switch li a:hover{
+  color: #e91e63 !important;
+  font-weight: bold;
+}
+.navbar .navbar-brand{
+  font-size: 21px !important;
+  color: #38999d;
+    float: left; 
+    height: 50px; 
+    padding:0px; 
+    margin-left: 18px !important; 
+
+}
+.navbar .navbar-brand:hover{
+  color: #ffeb3b;
+}
+/* Margin :auto VS Text-alian:center; */
+
+.menu .links a{
+  color: #000;
+  text-decoration: none;
+}
+.menu .links a:hover{
+  color: #8e44ad;
+  font-weight: bold;
+}
+.menu .links:before{
+    content: "";
+    width: 0;
+    height: 0;
+    border-style: solid;
+    border-width: 12px;
+    border-color: transparent transparent #FFF transparent;
+    border-style: solid;
+    position: absolute;
+    top: -24px;
+    right: 360px;
+
+}
+.menu:hover .links{
+  display: block;
+}
+
+.links{    
+    display: none; 
+    background: #FFF;
+    width: 800px;
+    border-radius: 20px;
+    position: absolute;
+    z-index: 99999;
+    right: 75px;
+    top: 70px;
+    cursor: pointer;
+    direction: rtl;
+}
+
+.links-group:hover .links{
+    display: block;
+}
+
+.links table{
+    padding: 10px;
+    margin: 10px;
+}
+
+.links table td{
+    direction: rtl;
+    padding: 10px;
+    font-size: 20px;
+}
+.links table td a{
+    direction: rtl;
+    text-decoration: none;
+}
+
+/*End Div Links*/
+
+/*Start Edit on MAin Title */
+.main-title{
+
+    background-color: #212529;
+    display: inline-block;
+    margin: auto;
+    padding: 10px 10px 20px;
+    color: #3fb7bc;
+    border-radius: 49px;
+    font-weight: bold;
+    margin: 50px auto 30px;
+}
+.carousel-caption {
+    background-color: rgba(3,3,3,.2);
+    bottom: 70px;
+    padding-left: 20px;
+    padding-right: 20px;
+    border-radius: 50px;
+    padding-bottom: 0px;
+}
+/*End Edit on MAin Title */
+
+
+/*Create Simple Timeline Comments */
+.commments{
+    margin: auto;
+    padding: 0px 20px 0px 30px;
+    color: #000;
+    border-right: 2px solid #AAA;
+}
+.commments p{
+  background-color: #FFF;
+  padding: 10px;
+  font-size: 16px;
+  line-height: 1.7;
+  border:1px solid #CCC;
+  position: relative;
+}
+.commments p:before {
+    content: "";
+    display: block;
+    width: 15px;
+    height: 15px;
+    background-color: #2c3e50;
+    border-radius: 50%;
+    border: 3px solid #CCC;
+    position: absolute;
+    top: 15px;
+    right: -30px;
+}
+.commments p:after {
+    content: "";
+    display: block;
+    width: 0;
+    height: 0;
+    border-style: solid;
+    border-color: transparent transparent transparent #CCC;
+    border-width: 10px;
+    position: absolute;
+    top: 12px;
+    right: -21px
+}
+
+/* Start the PAGE Doctors*/
+.doctors-part {
+ margin: 120px 0;
+    direction: rtl
+}
+.doctors{
+    width: 1500px;
+    margin: auto;
+}
+.doctors-part .parts{
+    border: 2px solid #ccc;
+    border-radius: 12px;
+    padding: 20px;
+}
+.doctors-part .parts .form-control{
+    width: 90%;
+   margin-bottom: 30px;
+}
+.doctors-part .parts .list{
+    padding: 0px;
+}
+
+.doctors-part .parts ul li{
+    padding: 5px;
+    border: 1px solid #EEE;
+    margin: 0px;
+    border-radius: 10px;
+    font-size: 17px;
+}
+
+.doctor-photo{
+    border: 2px solid #ccc;
+    border-radius: 12px;
+    padding: 20px;
+   /* height: 1380px;*/
+}
+
+.doctor-photo h2{
+    border: 1px solid #EEE;
+    padding: 20px;
+    border-radius: 12px;
+    background-color: black;
+    color: crimson !important;
+    padding: 20px;
+    border-radius: 50px;
+}
+
+.doctor-photo .cont-img{
+    width: 33.33333%;
+    border: 1px solid #EEE;
+    margin: 5px 0 24px;
+    padding: 20px;
+    border-radius: 12px;
+    float: left;
+}
+
+.doctor-photo  table{
+        width: 100%;
+}
+
+.doctor-photo  .img-link:hover{
+        box-shadow: 0px 0px 10px 5px rgba(0, 0, 0, 0.2);
+}
+
+.doctor-photo  .img-link {
+    padding: 10px;
+    margin: 20px;
+    border: 1px solid #EEE;
+    border-radius: 12px;
+    
+}
+
+.doctor-photo  .img-link img{
+    border-radius: 20px;
+    margin-top: 15px;
+    width: 200px;
+    height: 260px;
+}
+
+.doctor-photo  .img-link .lead{
+        font-size: 21px;
+    margin-top: 10px;
+    color: #b3afaf;
+}
+
+/* End the PAGE Doctors*/
+
+
+/** Start page Table**/
+.patient_table{
+    background-color: #ddddddc4;
+    padding-top: 40px; 
+    padding-bottom: 40px; 
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+.patient_table .row{
+    margin: 150px 0;
+}
+
+.patient_table .h1{
+  margin-bottom: 50px;
+      background-color: black;
+    color: chartreuse;
+    padding: 20px;
+    border-radius: 50px;
+}
+.patient_table .day{
+    border: 2px solid #716666;
+    width: 400px;
+    margin: auto;
+    padding: 10px;
+    margin-bottom: 50px;
+    border-radius: 32px;
+}
+
+.patient_table .patient_box{
+    background: #FFF;
+    padding: 10px;
+    border: 1px solid #CCC;
+    margin-bottom: 15px;
+    height: 320px;
+}
+
+.patient_table .patient_box h2{    
+    margin: 5px 0 15px;
+}
+
+.patient_table .patient_box:hover p{
+    border: 2px solid #dfdfdf;
+    background-color: darkslategray;
+    color: crimson;
+    -webkit-transform:scale(1.2,1.2) rotate(360deg) ;
+    -moz-transform:scale(1.2,1.2) rotate(360deg) ;
+    -o-transform:scale(1.2,1.2) rotate(360deg);
+    transform:scale(1.2,1.2) rotate(360deg);
+    
+}
+.patient_table .patient_box p {
+    font-size: 35px;
+    font-weight: bold;
+    color: #666;
+    width: 75px;
+    height: 75px;
+    background: #f3f3f3;
+    border-radius: 50%;
+    line-height: 70px;
+    border: 2px solid #fff;
+    -webkit-transition-duration:0.7s ;
+    -moz-transition-duration:0.7s;
+    -o-transition-duration:0.7s;
+    transition-duration:0.7s;        
+}
+
+.patient_table .patient_box ul{
+    line-height: 200%;
+    font-size: 18px;    
+}
+.patient_table .patient_box ul li{
+        font-weight: bold;
+}
+
+
+
+/*Start tabs section*/
+.days{
+    margin-right:  300px;
+}
+.days-switch li {
+    color: crimson;
+    border-bottom: 1px solid #333333;
+    height: 50px;
+    background-color: #000;
+    font-size: 20px;
+    text-transform: uppercase;
+    cursor: pointer;
+    width: 100px;
+    float: right;
+    margin-left: 10px;
+    line-height: 45px;
+    border-radius: 25px;
+    
+}
+.days-switch li.selected,
+.days-switch li:hover{
+    background-color: #3fbbc0; 
+    color: #FFF;   
+}
+.tabs-content .sun{
+    display: none;
+}
+.tabs-content .mon{
+    display: none;
+}
+.tabs-content .tus{
+    display: none;
+}
+.tabs-content .win{
+    display: none;
+}
+
+
+/** End Page Table**/
+
+
+/*Start about page*/
+
+.aboutt-us{
+    background-color: #ddddddc4;
+    padding-top: 50px; 
+    padding-bottom: 20px; 
+    margin-top: 50px;
+    margin-bottom: 30px;
+    min-height: 550px;
+}
+.aboutt-us .row{
+    margin: 110px 0;
+}
+
+.aboutt-us h2{
+   
+    margin-top: 10px;
+    color: #4092d8;
+    background-color: black;
+    color: chartreuse;
+    padding: 20px;
+    border-radius: 50px;
+}
+.aboutt-us .about-header{
+    border: 2px solid #716666;
+    width: 400px;
+    margin: auto;
+    padding: 10px;
+    margin-bottom: 50px;
+    border-radius: 32px;
+}
+
+.aboutt-us .patient_box{
+    background: #FFF;
+    padding: 10px;
+    border: 1px solid #CCC;
+    margin-bottom: 15px;
+  }
+.aboutt-us .old-leader .patient_box{
+    height: 430px;
+}
+.aboutt-us .show-vedio .patient_box{
+    /*height: 600px;*/
+}
+.aboutt-us .img-leader{
+    width: 230px;
+    height: 320px
+}
+.aboutt-us .vedios{
+    
+    width: 85%;
+    margin: auto;
+}
+.aboutt-us .patient_box .leader-name{    
+    margin: 13px 0 15px;
+}
+
+.aboutt-us .patient_box ul{
+    line-height: 200%;
+    font-size: 18px;    
+}
+.aboutt-us h3{
+    margin-bottom: 25px;
+    color: #1f1b1b87;
+}
+.aboutt-us .patient_box ul li{
+    font-weight: bold;
+    float: right;
+    width: 400px;
+    padding: 5px;
+    border-bottom: 1px solid #e5e5e5;
+    text-align: right;
+}
+.aboutt-us .patient_box ul li:first-child{
+    width: 100%;
+    text-align: center;
+    border: none;
+}
+.aboutt-us .itemExtraFieldsLabel{
+    display: block;
+    float: right;
+    font-weight: bold;
+    margin: 0 4px 0 0;
+    width: 51%;
+}
+.aboutt-us .itemExtraFieldsLabel ~ span{
+    font-weight: normal;
+    color: #AAA;
+}
+.aboutt{
+    margin-right:  150px;
+}
+.aboutt .tab-switch li {
+    color: crimson;
+    border-bottom: 1px solid #333333;
+    height: 50px;
+    background-color: #000;
+    font-size: 16px;
+    text-transform: uppercase;
+    cursor: pointer;
+    width: 215px;
+    float: right;
+    margin-left: 10px;
+    line-height: 45px;
+    border-radius: 25px;
+}
+.aboutt .tab-switch li.selected,
+.aboutt .tab-switch li:hover{
+        background-color: #3fbbc0;
+    color: #FFF;    
+}
+.aboutt-content .leader{
+    display: none;
+}
+.aboutt-content .old-leader{
+    display: none;
+}
+.aboutt-content .show-vedio{
+    display: none;
+}
+.aboutt-content .contact-us{
+    display: none;
+}
+
+.aboutt-us .info .patient_box{
+    height: 645px;
+}
+.aboutt-us .info .carousel-inner{
+    width: 100%;
+}
+
+.aboutt-us .info .carousel-inner>.item>a>img,.aboutt-us .info .carousel-inner>.item>img,.aboutt-us .info .img-responsive, .aboutt-us .info .thumbnail a>img,.aboutt-us .info  .thumbnail>img{
+    height: 520px !important;
+    margin-top: 0;
+    
+}
+
+.aboutt-us .info .carousel-caption{
+    bottom: 15px;
+}
+
+
+
+/*Start section contact-us*/
+.contactus {
+    background: url(../img/parallax/1.jpg) no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    min-height: 485px;
+    direction: rtl;
+    padding-bottom:  50px;
+}
+.contactus .h2-cont{
+    padding: 25px 0 25px 0;
+    margin-top: 0;
+    color: #fff;
+}
+.contactus  .patient_box{
+    padding: 0px;
+}
+
+.contactus textarea{height: 107px;}
+
+.contactus input[type="text"],
+.contactus textarea{
+    color: #000;  
+    border: none;
+    font-weight: bold;
+}
+
+.con-us  .patient_box{
+    padding: 0px;
+   
+}
+.con-us .btnn{
+    background-color: #4accd1; 
+    font-size: 16px;
+    font-weight: bold;
+    color: black
+
+}
+.con-us p {
+    margin: 0 0 0px;
+    color: white;
+    font-size: 12px;
+}
+
+.contactus .form-group{
+  padding:  0 22px 0 30px;
+}
+/*end section contact-us*/
+/** End Page about**/
+
+.aboutt-us  .con-us{
+    margin: 20px 0;
+}
+.information .commments{
+  margin: 0px 0 30px ;
+}
+.information .commments p{
+    background-color: #FFF;
+    padding: 10px;
+    font-size: 16px;
+    line-height: 1.7;
+    border: 1px solid #CCC;
+    position: relative;
+    margin: 15px 0;
+}
+
+
+@media (max-width: 767px) {
+  .navbar-expand-lg .navbar-nav .nav-link{
+        padding-right: 0;
+       padding-left: 0;
+  }
+  .navbar{
+    background-color: #FFF;
+      color: #3fbbc0;
+      font-size: 10px;
+      padding: 10px;
+      float: right;
+  }
+  .navbar-nav>li>a{
+    font-size: 8px ;
+  }
+
+  .about-us .h1{
+    font-size: 10px;
+      margin: 11px;
+      background-color: black;
+      color: chartreuse;
+      padding: 20px;
+      border-radius: 50px;
+      text-align: center;
+      display: inline-block;
+
+  }
+  .about-us .header,
+  .about-us div:nth-of-type(2){
+     font-size: 15px;
+  }
+
+}
+@media (min-width:768px) and (max-width:991px){/* From Small To Medium */
+  .navbar-expand-lg .navbar-nav .nav-link{
+        padding-right: 0;
+       padding-left: 0;
+  }
+  .navbar{
+  background-color: #010101;
+    color: #3fbbc0;
+    font-size: 10px;
+    padding: 10px;
+    float: right;
+  }
+  .navbar-nav>li>a{
+    font-size: 11px ;
+  }
+
+  .about-us .h1{
+    font-size: 15px;
+      margin: 11px;
+      background-color: black;
+      color: chartreuse;
+      padding: 20px;
+      border-radius: 50px;
+      text-align: center;
+      max-width: 400px;
+      display: inline-block;
+  }
+  .about-us .header,
+  .about-us div:nth-of-type(2){
+        font-size: 20px;
+  }
+
+  .links table td {
+      padding: 20 px;
+      font-size: 15px;
+  }
+  .img-thumbnail{
+        max-width: 50%;
+  }
+
+  .doctors {
+      width: 1000px;
+      margin: auto;
+  }
+  h2 {
+      font-size: 15px;
+  }
+  .doctor-photo  .img-link img {
+      border-radius: 20px;
+      margin-top: 15px;
+      width: 100px;
+      height: 90px;
+  }
+  .doctors-part .parts ul li{
+    font-size: 10px;
+      font-weight: bold;
+  }
+  .doctor-photo{
+    /* height: 1362px;*/
+      float: right
+    }
+  .doctors-part .parts{
+    float: right;
+  }
+  .doctor-photo  .img-link .lead{
+        font-size: 10px;
+
+  }
+  .aboutt .tab-switch li{
+    color: crimson;
+      border-bottom: 1px solid #333333;
+      height: 50px;
+      background-color: #000;
+      font-size: 10px;
+      text-transform: uppercase;
+      cursor: pointer;
+      width: 92px;
+      float: right;
+      margin-left: 6px;
+      line-height: 38px;
+      border-radius: 25px;
+    }
+    .aboutt-us h2 {
+     
+      margin-top: 10px;
+      color: #4092d8;
+      background-color: black;
+      color: chartreuse;
+      padding: 12px;
+      border-radius: 50px;
+  }
+  .h1 {
+      font-size: 25px;
+      margin: 20px;
+      background-color: black;
+      color: chartreuse;
+      padding: 10px;
+      border-radius: 50px;
+      text-align: center;
+  }
+  h2, .h2 {
+      font-size: 19px;
+  }
+  .days-switch li {
+      color: crimson;
+      border-bottom: 1px solid #333333;
+      height: 50px;
+      background-color: #000;
+      font-size: 16px;
+    
+      cursor: pointer;
+      width: 70px;
+      float: right;
+      margin-left: 7px;
+      line-height: 45px;
+      border-radius: 25px;
+  }
+  .days {
+      margin: auto 160px;
+  }
+
+}
+
+
+
+@media (min-width:992px) and (max-width:1199px){/* From Medium To large */
+  .navbar-expand-lg .navbar-nav .nav-link{
+        padding-right: 0;
+       padding-left: 0;
+  }
+  #wrapper.boxed {
+    width: 1030px;
+  }
+  .navbar{
+  background-color: #010101;
+    color: #3fbbc0;
+    font-size: 11px;
+    padding: 15px;
+    float: right;
+  }
+  .navbar-nav>li>a{
+    font-size: 18px;
+  }
+  .about-us .h1{
+    font-size: 20px;
+      margin: 11px;
+      background-color: black;
+      color: chartreuse;
+      padding: 20px;
+      border-radius: 50px;
+      text-align: center;
+      max-width: 500px;
+      display: inline-block;
+
+  }
+  .about-us .header,
+  .about-us div:nth-of-type(2){
+        font-size: 25px;
+  }
+
+  .links table td {
+      padding: 10px;
+      font-size: 15px;
+  }
+  .img-thumbnail{
+        max-width: 60%;
+  }
+  .doctors {
+      width: 952px;
+      margin: auto;
+  }
+  h2 {
+      font-size: 20px;
+  }
+  .doctor-photo  .img-link img {
+      border-radius: 20px;
+      margin-top: 10px;
+      width: 165px;
+      height: 150px;
+  }
+  .doctors-part .parts ul li{
+    font-size: 9px;
+      font-weight: bold;
+  }
+  .doctor-photo{
+    /*height: 2100px;*/
+  }
+  .doctor-photo  .img-link .lead{
+    font-size: 15px;
+  }
+  .aboutt .tab-switch li{
+    width: 120px;
+    font-size: 12px;
+  }
+  h2, .h2 {
+      font-size: 22px;
+  }
+  .patient_table .days {
+      margin-right: 200px;
+      background-color: #3fbbc0;
+  }
+
+}
+
+
+
+
+@media (min-width: 1200px) {
+  .navbar-expand-lg .navbar-nav .nav-link{
+        padding-right: 0;
+       padding-left: 0;
+  }
+  .navbar-nav>li>a{
+    font-size: 22px;
+  }
+  .navbar{
+    background-color: #010101;
+      color: #3fbbc0;
+      font-size: 11px;
+      padding: 20px;
+      float: right;
+  }
+  .about-us .h1{
+    font-size: 30px;
+      margin: 11px;
+      background-color: black;
+      color: chartreuse;
+      padding: 20px;
+      border-radius: 50px;
+      text-align: center;
+      max-width: 500px;
+      display: inline-block;
+  }
+  .about-us .header,
+  .about-us div:nth-of-type(2){
+        font-size: 35px;
+  }
+  .links table td {
+      padding: 10px;
+      font-size: 20px;
+  }
+  .img-thumbnail{
+       
+  }
+  .doctors {
+      width: 1000px;
+      margin: auto;
+  }
+  h2 {
+      font-size: 24px;
+  }
+  
+  .doctor-photo  .img-link img {
+      border-radius: 20px;
+      margin-top: 15px;
+      width: 180px;
+      height: 170px;
+  }
+  .doctors-part .parts ul li{
+    font-size: 15px;
+      font-weight: bold;
+  }
+  .doctor-photo{
+   /* height: 2100px;*/
+  }
+  h2, .h2 {
+      font-size: 25px;
+  }
+  .patient_table .days {
+      margin-right: 300px;
+  }
+
+}
+
+@media (min-width: 1400px) {
+  .navbar-expand-lg .navbar-nav .nav-link{
+        padding-right: 0;
+       padding-left: 0;
+  }
+  .doctors {
+      width: 1350px;
+      margin: auto;
+  }
+  .doctor-photo{
+   /* height: 2000px;*/
+  }
+  .img-thumbnail{
+        max-width: 100%;
+  }
+  h2, .h2 {
+      font-size: 27px;
+  }
+
+}
+
+
+/*Start Page FAQ*/
+.faq-question{
+  margin: 100px 0;
+  min-height: 800px;
+}
+.faq{
+    padding:40px 0; 
+    
+}
+
+.faq-question h1{
+      background-color: #AAA;
+    color: black;
+    font-size: 45px;
+    padding: 10px;
+    margin: 20px auto;
+    text-align: center !important;
+    border-radius: 10px;
+    font-weight: bold;
+    
+}
+
+.faq-question .panel-title{
+    position: relative;
+    font-size: 22px;
+    color: #010101;
+}
+.faq-question .panel{
+    position: relative;
+}
+.faq-question .panel-heading a,
+.faq-question .panel-heading a.collapsed{
+  width: 100%;
+}
+.faq-question .panel-heading a:after{
+    font-family: "Glyphicons halflings";
+    content: "\e114";
+    position: absolute;
+    left: -50px;
+    top: 0px;
+    margin-left: 50px;
+    color: #444;
+}
+
+.faq-question .panel-heading a.collapsed:after{
+    font-family: "Glyphicons halflings";
+    content: "\e079";
+    position: absolute;
+    left: -50px;
+    top: 0px;
+    margin-left: 50px;
+    color: #999;
+}
+
+.faq-question .panel-heading a:hover{
+
+  display: inline-block;
+  vertical-align: middle;
+  -webkit-transform: perspective() translateZ(0);
+  transform: perspective(0) translateZ(0);
+  box-shadow: 0 0 0 rgba(0, 0, 0, 0);
+}
+.faq-question .panel-heading a:hover,
+.faq-question .panel-heading a:focus,
+.faq-question .panel-heading a:active {
+  -webkit-animation-name: hvr-pop;
+  animation-name: hvr-pop;
+  -webkit-animation-duration: 0.3s;
+  animation-duration: 0.3s;
+  -webkit-animation-timing-function: linear;
+  animation-timing-function: linear;
+  -webkit-animation-iteration-count: 0;
+  animation-iteration-count: 0;
+
+}
+
+
+
+/* Div Show More And Less */
+.less{
+  visibility: hidden;
+}
+.show-more{
+  visibility: hidden;
+}
+
